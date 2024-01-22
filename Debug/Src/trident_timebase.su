@@ -1,0 +1,6 @@
+../Src/trident_timebase.c:77:13:tick_increment	4	static
+../Src/trident_timebase.c:90:6:Time_Delay_Ms	24	static
+../Src/trident_timebase.c:111:10:Time_Get_Tick	4	static,ignoring_inline_asm
+../Src/trident_timebase.c:124:6:Time_Timebase_Init	8	static,ignoring_inline_asm
+../Src/trident_timebase.c:184:6:SysTick_Handler	8	static
+../Src/trident_timebase.c:189:6:SystemCoreClockUpdate	32	static

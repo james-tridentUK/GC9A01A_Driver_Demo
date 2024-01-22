@@ -1,0 +1,6 @@
+../Src/trident_timebase.c:77:13:tick_increment	1
+../Src/trident_timebase.c:90:6:Time_Delay_Ms	3
+../Src/trident_timebase.c:111:10:Time_Get_Tick	1
+../Src/trident_timebase.c:124:6:Time_Timebase_Init	4
+../Src/trident_timebase.c:184:6:SysTick_Handler	1
+../Src/trident_timebase.c:189:6:SystemCoreClockUpdate	6

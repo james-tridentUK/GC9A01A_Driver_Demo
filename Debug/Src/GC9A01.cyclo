@@ -1,0 +1,11 @@
+../Src/GC9A01.c:27:13:GC9A01_spi_tx	1
+../Src/GC9A01.c:35:6:GC9A01_set_reset	2
+../Src/GC9A01.c:47:6:GC9A01_set_data_command	2
+../Src/GC9A01.c:59:6:GC9A01_set_chip_select	2
+../Src/GC9A01.c:71:6:GC9A01_write_command	1
+../Src/GC9A01.c:79:6:GC9A01_write_data	1
+../Src/GC9A01.c:87:20:GC9A01_write_byte	1
+../Src/GC9A01.c:92:6:GC9A01_write	1
+../Src/GC9A01.c:98:6:GC9A01_write_continue	1
+../Src/GC9A01.c:104:6:GC9A01_init	1
+../Src/GC9A01.c:359:6:GC9A01_set_frame	1

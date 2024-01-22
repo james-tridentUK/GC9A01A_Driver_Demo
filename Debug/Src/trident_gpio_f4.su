@@ -1,0 +1,8 @@
+../Src/trident_gpio_f4.c:56:6:GPIO_Clock_Init	16	static
+../Src/trident_gpio_f4.c:86:6:GPIO_Clock_DeInit	16	static
+../Src/trident_gpio_f4.c:111:6:GPIO_PinConfig	16	static
+../Src/trident_gpio_f4.c:164:6:GPIO_SetOutputType	16	static
+../Src/trident_gpio_f4.c:185:6:GPIO_SetOutputSpeed	16	static
+../Src/trident_gpio_f4.c:223:6:GPIO_SetPullUpDown	16	static
+../Src/trident_gpio_f4.c:254:6:GPIO_WritePin	16	static
+../Src/trident_gpio_f4.c:267:6:GPIO_TogglePin	16	static

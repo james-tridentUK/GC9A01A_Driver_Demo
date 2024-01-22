@@ -1,0 +1,6 @@
+../Src/trident_spi_f4.c:62:6:spi1_gpio_init	1
+../Src/trident_spi_f4.c:102:15:SPI_Init	1
+../Src/trident_spi_f4.c:132:15:SPI_Transmit	5
+../Src/trident_spi_f4.c:163:15:SPI_Receive	4
+../Src/trident_spi_f4.c:185:6:SPI_Enable	1
+../Src/trident_spi_f4.c:192:6:SPI_Disable	1
