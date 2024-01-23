@@ -1,3 +1,0 @@
-../Src/main.c:58:13:GPIO_Configure	8	static
-../Src/main.c:98:5:main	48	static
-../Src/main.c:246:1:__io_putchar	16	static

@@ -1451,7 +1451,7 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x00000000000003f7       0x1e C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
  .ARM.attributes
                 0x0000000000000415       0x1e C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtn.o
-OUTPUT(GC9A01_Display.elf elf32-littlearm)
+OUTPUT(GC9A01_LVGL.elf elf32-littlearm)
 LOAD linker stubs
 LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
 LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
@@ -1568,16 +1568,16 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x000000000000f107      0x216 ./Src/trident_spi_f4.o
  .debug_macro   0x000000000000f31d      0x20c ./Src/trident_timebase.o
 
-.debug_line     0x0000000000000000     0x335f
- .debug_line    0x0000000000000000      0x924 ./Src/GC9A01.o
- .debug_line    0x0000000000000924      0x902 ./Src/main.o
- .debug_line    0x0000000000001226      0x589 ./Src/trident_fpu_f4.o
- .debug_line    0x00000000000017af      0x983 ./Src/trident_gpio_f4.o
- .debug_line    0x0000000000002132      0x8d7 ./Src/trident_spi_f4.o
- .debug_line    0x0000000000002a09      0x8db ./Src/trident_timebase.o
- .debug_line    0x00000000000032e4       0x7b ./Startup/startup_stm32f401ccux.o
+.debug_line     0x0000000000000000     0x330b
+ .debug_line    0x0000000000000000      0x916 ./Src/GC9A01.o
+ .debug_line    0x0000000000000916      0x8f4 ./Src/main.o
+ .debug_line    0x000000000000120a      0x57b ./Src/trident_fpu_f4.o
+ .debug_line    0x0000000000001785      0x975 ./Src/trident_gpio_f4.o
+ .debug_line    0x00000000000020fa      0x8c9 ./Src/trident_spi_f4.o
+ .debug_line    0x00000000000029c3      0x8cd ./Src/trident_timebase.o
+ .debug_line    0x0000000000003290       0x7b ./Startup/startup_stm32f401ccux.o
 
-.debug_str      0x0000000000000000    0x54a4d
+.debug_str      0x0000000000000000    0x54a0a
  .debug_str     0x0000000000000000    0x53a1a ./Src/GC9A01.o
                                       0x53c45 (size before relaxing)
  .debug_str     0x0000000000053a1a      0xa2b ./Src/main.o
@@ -1590,7 +1590,8 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                                       0x53b83 (size before relaxing)
  .debug_str     0x0000000000054773      0x268 ./Src/trident_timebase.o
                                       0x5380a (size before relaxing)
- .debug_str     0x00000000000549db       0x72 ./Startup/startup_stm32f401ccux.o
+ .debug_str     0x00000000000549db       0x2f ./Startup/startup_stm32f401ccux.o
+                                         0x76 (size before relaxing)
 
 .debug_frame    0x0000000000000000      0x950
  .debug_frame   0x0000000000000000      0x194 ./Src/GC9A01.o
@@ -1615,7 +1616,7 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_frame   0x000000000000092c       0x24 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
 
 .debug_line_str
-                0x0000000000000000       0x66
+                0x0000000000000000       0x6a
  .debug_line_str
-                0x0000000000000000       0x66 ./Startup/startup_stm32f401ccux.o
-                                         0x7e (size before relaxing)
+                0x0000000000000000       0x6a ./Startup/startup_stm32f401ccux.o
+                                         0x82 (size before relaxing)
