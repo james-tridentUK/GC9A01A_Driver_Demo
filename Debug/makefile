@@ -59,8 +59,8 @@ all: main-build
 main-build: GC9A01_Display.elf secondary-outputs
 
 # Tool invocations
-GC9A01_Display.elf GC9A01_Display.map: $(OBJS) $(USER_OBJS) C:\Users\User\Documents\Code_Library\Trident_Repo\GC9A01_Display\STM32F401CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "GC9A01_Display.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\User\Documents\Code_Library\Trident_Repo\GC9A01_Display\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GC9A01_Display.map" -Wl,--gc-sections -static -L"C:\Users\User\Documents\Code_Library\Trident_Repo\GC9A01_Display\chip_headers\CMSIS\Device\ST\STM32F4xx\Source" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+GC9A01_Display.elf GC9A01_Display.map: $(OBJS) $(USER_OBJS) C:\Users\Administrator\git\GC9A01A_Driver_Demo\STM32F401CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "GC9A01_Display.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Administrator\git\GC9A01A_Driver_Demo\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GC9A01_Display.map" -Wl,--gc-sections -static -L"C:\Users\Administrator\git\GC9A01A_Driver_Demo\chip_headers\CMSIS\Device\ST\STM32F4xx\Source" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
